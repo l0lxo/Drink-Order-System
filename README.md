@@ -46,6 +46,12 @@ Stock Redistribution: HQ automatically redistributes stock to branches when leve
 "Connection refused": Ensure MainServer is running before clients start.
 Database errors: Verify MySQL credentials in DB_URL, USER, PASS (all files).
 Empty reports: Check if orders exist in the orders table.
+To add the mysql connector for IDEs:
+Eclipse/VS Code:
+Right-click project → Build Path → Add External JARs → Select the connector JAR
+IntelliJ:
+File → Project Structure → Libraries → "+" → Java → Select the JAR
+
 
 ## Project Structure
 src/
@@ -56,8 +62,3 @@ src/
 ├── Payment.java          # Payment processing
 └── DatabaseService.java  # DB helper methods
 
-To add the mysql connector for IDEs:
-Eclipse/VS Code:
-Right-click project → Build Path → Add External JARs → Select the connector JAR
-IntelliJ:
-File → Project Structure → Libraries → "+" → Java → Select the JAR
