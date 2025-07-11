@@ -55,3 +55,9 @@ src/
 ├── Order.java            # Order data model
 ├── Payment.java          # Payment processing
 └── DatabaseService.java  # DB helper methods
+
+To add the mysql connector for IDEs:
+Eclipse/VS Code:
+Right-click project → Build Path → Add External JARs → Select the connector JAR
+IntelliJ:
+File → Project Structure → Libraries → "+" → Java → Select the JAR
